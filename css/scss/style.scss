@@ -1,0 +1,65 @@
+$base-size: 10px;
+
+$color--light: #a7adba;
+$color--dark: #343d46;
+
+:root {
+  --accent-color: #c0c5ce;
+  --default-color: #65737e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $base-size;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  background: $color--dark;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $color--light;
+}
+
+h1 {
+  font-family: "Major Mono Display", monospace;
+  font-size: 25pt;
+}
+
+.large {
+  font-size: large;
+}
+
+/*.small {
+  font-size: small !important;
+}*/
+
+.boxes {
+  font-family: "Major Mono Display", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15pt
+}
+
+.box, #play-btn {
+  padding: 1rem 3rem;
+  margin: 0 .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  transition: 0.1s;
+  background: $color--light;
+}
+
+.music-controls {
+  padding: 5rem;
+}

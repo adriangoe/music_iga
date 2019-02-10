@@ -1,0 +1,6 @@
+audio/*/*.mp3
+audio/*/*.ogg
+audio/*/*.wav
+.DS_Store
+node_modules/
+build/
